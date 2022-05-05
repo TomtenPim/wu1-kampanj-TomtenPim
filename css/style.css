@@ -3,8 +3,8 @@
     --color-dark: #1e1b18;
     --color-shadow: hsla(0, 0%, 13%, 0.2);
     --color-primary: #a380f9;
-    --color-secondary: #6cd4ff;
-    --color-secondary2: #eebfb3;
+    --color-secondary: hsl(198, 100%, 71%);
+    --color-secondary2: hsl(12, 63%, 82%);
 
     font-family: 'Ubuntu Mono', monospace;  
     font-family: 'Ubuntu', sans-serif;
@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: var(--color-secondary2   );
+    /*color: var(--color-secondary2   );*/
 }
 
 /* navbar */
@@ -25,7 +25,6 @@ a:hover {
     flex-wrap: wrap;
     align-items: center;
     padding: 1rem;
-
     font-size: 1.333rem;
 }
 .navbar__collapse-show {
@@ -69,11 +68,11 @@ a:hover {
     padding-left: 1rem;
 }
 .nav-link {
-    color: var(--color-primary);
+    color: var(--color-dark);
 }
 .nav-link:hover {
     text-decoration: none;
-    color: var(--color-dark);
+    color: var(--color-primary);
 }
 
 @media (max-width: 768px) {
@@ -159,10 +158,12 @@ body {
 
 /* hero */
 .hero {
-    font-size: 1.777rem;
+    font-size: 1.3rem;
 
     color: var(--color-light);
     background-color: var(--color-primary);
+    background: rgb(108,212,255);
+    background: linear-gradient(90deg, rgba(108,212,255,1) 0%, rgba(163,128,249,1) 20%,  rgba(163,128,249,1) 80%, rgba(238,180,179,1) 100%);
     min-height: 80vh;
     display: grid;
     place-content: center;
@@ -192,7 +193,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.369rem;
+    font-size: 2rem;
     font-family: 'Ubuntu Mono', monospace;
 }
 

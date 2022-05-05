@@ -21,7 +21,9 @@ nästa gång ska jag skriva in resten av min text samt böra förfina sidan
 
 ## Vecka 18
 
+skrev all text samt fixade layout
 
+nästa gång ska jag lägga in en bild och lägga upp på github pages
 
 ## Vecka 19 NP
 //////////////////////////
