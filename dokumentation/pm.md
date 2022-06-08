@@ -24,7 +24,7 @@ Samt ändra fonten på hemsidan till en mer passande för tech temat, nämligen 
 
 Då jag ökade mängden innehåll i topbar:en med för mycket var jag tvungen att öka värdet då de olika kategorierna omvandlass till en hamburgermeny för att inte dubbla tjockleken på topbar:en på somliga skärmsorlekar/in zoomningar.
 
-En av kraven på uppgiften var att använda en bild så jag lade in en bild på mig själv i footern på hemsidan och gjorde den rund med border-radius: 50%; Efter detta validerade jag både dess html kod och dess css kod i Validator.nu respektive jigsaw.w3.org varpå den kom upp som felfri. Dock klagade wave på ett konstrastfel. Detta fel har jag valt att ignorera då ingen i min testgrupp på 6 personer hade svårt att tyda vad det stod, även med ett plugin i min webbläsare som kan simulera synnedsättningar.
+En av kraven på uppgiften var att använda en bild så jag lade in en bild på mig själv i footern på hemsidan och gjorde den rund med border-radius: 50%; Efter detta validerade jag både dess html kod och dess css kod i Validator.nu respektive jigsaw.w3.org varpå den kom upp som felfri. Dock klagade wave på ett konstrastfel. Detta fel har jag valt att ignorera då ingen i min testgrupp på 6 personer hade svårt att tyda vad det stod, även med ett plugin i min webbläsare som kan simulera synnedsättningar. Sist kollade jag att sidan fungerade likadant i Google Chrome som i Microsoft Edge,vilket den gjorde.
 
 ## Positiva erfarenheter
 Det gick förvånansvärt lätt att skapa det jag trode skulle blir det största hindrett, gradienten. Jag hittade en sida online som skapade färdiga css gradiants men med bara tre "punkter" för färgerna att gå emellan. När jag kopierade in koden prövade jag att lägga till en extra "punkt" viket fungerade utan några problem alls.
