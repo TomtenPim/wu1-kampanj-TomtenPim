@@ -38,7 +38,7 @@ a:hover {
     place-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 855px) {
     .navbar {
         justify-content: space-between;
     }
@@ -46,7 +46,7 @@ a:hover {
         display: none;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 855px) {
     .navbar__toggle {
         display: none;
     }
@@ -75,7 +75,7 @@ a:hover {
     color: var(--color-primary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 855px) {
     .nav {
         padding-left: 0;
         flex-direction: column;
